@@ -1,0 +1,20 @@
+{
+  "name": "polytweaks",
+  "displayName": "Polytweaks",
+  "version": "0.1.0",
+  "description": "Save, version, review and share 3D models with Polytweaks. Keep source files together and present saved models on the web or in AR.",
+  "author": {
+    "name": "Polytweaks",
+    "email": "arturo.marruffo@nextlatam.com",
+    "url": "https://www.polytweaks.com/"
+  },
+  "homepage": "https://www.polytweaks.com/",
+  "repository": "https://github.com/nextlatam/polytweaks-claude",
+  "license": "MIT",
+  "keywords": ["3d", "models", "versions", "review", "feedback", "augmented-reality"],
+  "icon": "./assets/polytweaks-icon.png",
+  "documentationUrl": "https://www.polytweaks.com/help/claude/",
+  "supportUrl": "https://www.polytweaks.com/public/faq/",
+  "privacyPolicyUrl": "https://www.polytweaks.com/privacy/",
+  "termsOfServiceUrl": "https://www.polytweaks.com/terms-and-conditions/"
+}

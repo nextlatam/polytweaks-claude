@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "polytweaks": {
+      "type": "http",
+      "url": "https://api.polytweaks.com/claude/mcp"
+    }
+  }
+}
