@@ -4,9 +4,9 @@
 
 Keep your 3D models, revisions and feedback together. Polytweaks connects Claude to your own model library so you can find saved work, retrieve available source files, save a requested revision, collect comments and create web or AR presentation links.
 
-**Release candidate 0.1.0 — not yet listed in the Claude directory.** This public repository contains the distribution package for review. Building or installing it does not activate its server. A released server, configured OAuth client and successful live acceptance run are required before general use.
+**Release candidate 0.1.1 — not yet listed in the Claude directory.** The hosted connector has completed real OAuth and all ten tool calls in Claude web using an isolated owner test model. Directory review, a dedicated reviewer account and tests on other Claude surfaces remain pending. Installing this package does not provide the confidential client credentials used by a controlled custom connector.
 
-[Claude setup guide](https://www.polytweaks.com/help/claude/) · [Public package source](https://github.com/nextlatam/polytweaks-claude). The setup page is part of the candidate service release and may not be available until that release is published.
+[Claude setup guide](https://www.polytweaks.com/help/claude/) · [Public package source](https://github.com/nextlatam/polytweaks-claude).
 
 ## What you can do
 
@@ -18,11 +18,11 @@ Keep your 3D models, revisions and feedback together. Polytweaks connects Claude
 
 Creation and editing use the authoring tools actually available in your Claude session. This plugin does not bundle Blender or a 3D generator. Saved models open in the Polytweaks web viewer; this version does not provide an embedded Claude viewer or an unsaved-preview tool. iOS AR needs an authored USDZ companion.
 
-## Connect after release
+## Connect after directory approval
 
 In Claude, add the Polytweaks plugin, open its **Connectors** tab and connect Polytweaks. Sign in on Polytweaks and authorize your own account; it may use a different email from your Claude account. Never paste your password, access token or a developer client secret into the conversation.
 
-This release targets Claude chat on web, Desktop and mobile, and Cowork, subject to successful testing on each surface. **Claude Code account authorization is not supported by this release.** Its native OAuth client requires an additional integration even though it can read these skill files.
+Claude web is the tested surface. Desktop chat, mobile chat and Cowork use the targeted hosted OAuth profile but have not been tested for this release. **Claude Code account authorization is not supported by this release.** Its native OAuth client requires an additional integration even though it can read these skill files.
 
 For a private acceptance run, upload the ZIP through **Customize → Plugins → Add → Upload plugin**. A test administrator must first configure the controlled connector's OAuth client through Claude's secure settings. The public directory will supply the configured connector after approval; installing the ZIP alone cannot supply confidential credentials.
 

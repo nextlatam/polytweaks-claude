@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-10-24, directory candidate
+
+- Use the existing Polytweaks symbol in the current dark green, with a 192px-high mark centered on a transparent 256px square.
+- Record successful hosted OAuth and all ten tool calls in Claude web, including three retained versions and a duplicate-free save retry.
+- Keep dedicated reviewer access, directory approval, other Claude surfaces and hosted Claude refresh/revocation as separate pending checks.
+
 ## 0.1.0 — 2026-10-24, unreleased
 
 - Package Polytweaks setup and model-library skills with a remote HTTP MCP definition.
